@@ -1,0 +1,31 @@
+
+(base) C:\WINDOWS\system32>conda info --envs
+
+(base) C:\WINDOWS\system32>conda create --name myenviron
+
+(base) C:\WINDOWS\system32>conda activate myenviron
+
+(myenviron) C:\WINDOWS\system32>conda install -c anaconda flask
+
+(myenviron) C:\WINDOWS\system32>conda install -c conda-forge python-socketio
+
+(myenviron) C:\WINDOWS\system32>conda install -c conda-forge eventlet
+
+(myenviron) C:\WINDOWS\system32>conda install -c conda-forge tensorflow
+
+(myenviron) C:\WINDOWS\system32>conda install -c conda-forge keras
+
+(myenviron) C:\WINDOWS\system32>conda install -c anaconda pillow
+
+(myenviron) C:\WINDOWS\system32>conda install -c anaconda numpy
+
+(myenviron) C:\WINDOWS\system32>conda install -c conda-forge opencv
+
+(myenviron) C:\WINDOWS\system32>cd..
+
+(myenviron) C:\Windows>cd..
+
+(myenviron) C:\>cd Behavioral
+
+(myenviron) C:\Behavioral>python drive.py
+Using TensorFlow backend.
